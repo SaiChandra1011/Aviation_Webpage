@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body takes at least the full viewport height */
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+
+
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #0c4ff8;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+}
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  margin-right: auto;
+}
+
+.jet-info {
+  display: flex;
+  align-items: center;
+}
+
+.jet-info h5 {
+  margin-left: 15px;
+}
+
+
+
+.jet-info {
+  margin-left: auto;
+}
+
+.jet-info h5 {
+  margin-left: 20px;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body takes at least the full viewport height */
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+
+
+}
+
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.5rem; /* Vertically center content */
+
+  
+}
+
+footer p {
+  color: #474747;
+}
+
+
+
+.Intropara h2{
+  font-family: "McLaren", cursive;
+  font-size:xx-large;
+  font-weight: 900;
+  color:black;
+  padding-top: 75px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.para{
+  font-style:normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-variant: inherit;
+  font-stretch:condensed;
+  font-size: large;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+}
+
+.plane-img {
+  width: 100%;
+  height: auto;
+display: block;
+}
+.mid{
+  text-align: center;
+}
+
+
+.text-wrapper{
+text-align: justify;
+margin:5px;
+}
+
+.intro-image {
+  max-width: 50%;
+  height: auto;
+display: block;
+position:absolute;
+  top: 30%; /* Adjust the percentage value to control the vertical position */
+  left: 10%; /* Adjust the percentage value to control the horizontal position */
+  z-index: -1; /* Lower the z-index to place the image behind the text */
+  float: left;
+}
+
+
+
+
+
+
