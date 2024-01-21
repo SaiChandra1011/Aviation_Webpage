@@ -9,7 +9,7 @@ import cardsinfo from "../cardsinfo.jsx"
 function App(){
     return <div>
         <Header />
-        <Into />
+        <Into  />
         <div className="card-container">
         <Card 
         cardimage = {cardsinfo[0].imgUrl} 

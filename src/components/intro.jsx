@@ -3,13 +3,7 @@ import React from "react";
 function Into() {
   return (
     <div className="Intropara">
-      <div className="content-wrapper">
-        <img
-          src="https://www.freeiconspng.com/thumbs/airplane-png/airplane-png-26.jpg"
-          alt="Description of your image" 
-          className="intro-image"
-        />
-        <div className="text-wrapper">
+      
           <h2>Aviation,</h2>
           <p className="para">
             an awe-inspiring realm of human achievement, embodies the soaring triumphs of flight that
@@ -28,9 +22,9 @@ function Into() {
             to mankind's pursuit of pushing the boundaries of speed and innovation in aviation.
             Dive into AviaNation as it takes flight into the vast skies of aviation exploration from commercial jets to fighter jets.
           </p>
-        </div>
+        
       </div>
-    </div>
+    
   );
 }
 

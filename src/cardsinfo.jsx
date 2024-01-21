@@ -2,19 +2,19 @@
 const cardsinfo = [
 
     {
-        imgUrl: "https://easbcn.com/wp-content/uploads/2020/07/256409_1-1000x423.jpg",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
         name: "Boeing"
     },
     {
-        imgUrl: "https://www.transportenvironment.org/wp-content/uploads/2023/06/AdobeStock_598513252_Editorial_Use_Only-scaled.jpeg",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
         name: "Airbus"
     },
     {
-        imgUrl: "https://warriormaven.com/.image/t_share/MTkxMzEzOTYzNDQ5ODUzNDcz/f-35.jpg",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/F-35A_flight_%28cropped%29.jpg/800px-F-35A_flight_%28cropped%29.jpg",
         name: "American Fighters"
     },
     {
-        imgUrl: "https://www.airforce-technology.com/wp-content/uploads/sites/6/2023/03/shutterstock_472423087-1-scaled.jpg",
+        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sukhoi_Design_Bureau%2C_054%2C_Sukhoi_Su-57_%2849581303977%29.jpg",
         name: "Russian Fighters"
     }
 
