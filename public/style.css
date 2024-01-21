@@ -89,6 +89,7 @@ footer p {
   font-size: large;
   padding-right:15px;
   padding-left:10px;
+  margin-bottom: 50px;
 }
 
 .card-container {
@@ -109,6 +110,7 @@ footer p {
   border-radius: 15%;
  margin-bottom: 70px;
 }
+
 
 .plane-img {
   width: 90%;
