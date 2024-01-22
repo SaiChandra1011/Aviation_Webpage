@@ -6,6 +6,8 @@
 
 html {
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -17,7 +19,9 @@ body {
   width: 100vw;
   background: white;
   overflow-x: hidden;
-
+  text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+  cursor: url("./images/aero\ cursor.png"), auto;
 
 }
 
@@ -74,12 +78,16 @@ footer p {
 
 .Intropara h2{
   font-family: "McLaren", cursive;
-  font-size:xx-large;
-  font-weight: 900;
-  color:black;
+  font-size:94px;
+  font-weight: 600;
+  color:transparent;
   padding-top: 75px;
   padding-bottom: 25px;
   text-align: center;
+  background: red url('https://images.theconversation.com/files/537863/original/file-20230717-230575-4lcw35.jpg?ixlib=rb-1.1.0&rect=157%2C431%2C2434%2C1432&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip');
+  background-clip: text;
+  -webkit-background-clip: text;
+
 }
 .para{
   font-style:normal;
@@ -90,6 +98,7 @@ footer p {
   padding-right:15px;
   padding-left:10px;
   margin-bottom: 50px;
+
 }
 
 .card-container {
@@ -109,7 +118,10 @@ footer p {
   margin-top: 45px;
   border-radius: 15%;
  margin-bottom: 70px;
+ filter: drop-shadow(7px 9px 10px blue);
+
 }
+
 
 
 .plane-img {
