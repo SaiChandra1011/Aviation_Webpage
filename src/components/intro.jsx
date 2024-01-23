@@ -1,11 +1,17 @@
 import React from "react";
+import images from '../images/747-img.jpeg';
 
 function Into() {
   return (
     <div className="Intropara">
       
           <h2>Aviation,</h2>
+        
+            
           <p className="para">
+          <div  className ="aiimg">
+            <img  src={require("../images/747-img.jpeg")} alt="Plane-img" height ={350} width ={350} style={{float:"left"}} />
+            </div>
             an awe-inspiring realm of human achievement, embodies the soaring triumphs of flight that
             have revolutionized global connectivity. The history of aviation traces back to the dreams and innovations of pioneers like
             the Wright brothers, whose groundbreaking 1903 flight marked the dawn of modern aviation. From propeller-driven marvels to the advent of commercial jets
@@ -23,6 +29,7 @@ function Into() {
             Dive into AviaNation as it takes flight into the vast skies of aviation exploration from commercial jets to fighter jets.
           </p>
         
+          
       </div>
     
   );

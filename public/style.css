@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
   text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
-  cursor: url("./images/aero\ cursor.png"), auto;
+  cursor: url("../src/images/aero\ cursor.png"), auto;
 
 }
 
@@ -75,7 +75,6 @@ footer p {
 }
 
 
-
 .Intropara h2{
   font-family: "McLaren", cursive;
   font-size:94px;
@@ -89,18 +88,23 @@ footer p {
   -webkit-background-clip: text;
 
 }
+
 .para{
   font-style:normal;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-variant: inherit;
   font-stretch:condensed;
-  font-size: large;
-  padding-right:15px;
+  font-size: 20px;
+  padding-right:25px;
   padding-left:10px;
   margin-bottom: 50px;
-
+  margin-left: 170px;
 }
 
+#root > div > div.Intropara > p > div > img{
+  border-radius: 60px;
+  padding-right: 20px;
+}
 .card-container {
   display: flex;
   justify-content: space-around; 
