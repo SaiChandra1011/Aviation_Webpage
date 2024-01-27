@@ -98,11 +98,11 @@ footer p {
   padding-right:25px;
   padding-left:10px;
   margin-bottom: 50px;
-  margin-left: 170px;
+  margin-left: 60px;
 }
 
 #root > div > div.Intropara > p > div > img{
-  border-radius: 60px;
+  border-radius: 60px ;
   padding-right: 20px;
 }
 .card-container {
