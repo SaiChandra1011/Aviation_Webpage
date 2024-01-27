@@ -1,6 +1,7 @@
 import React from "react";
 import images from '../images/747-img.jpeg';
 
+
 function Into() {
   return (
     <div className="Intropara">
@@ -10,6 +11,7 @@ function Into() {
             
           <p className="para">
           <div  className ="aiimg">
+        
             <img  src={require("../images/747-img.jpeg")} alt="Plane-img" height ={350} width ={350} style={{float:"left"}} />
             </div>
             an awe-inspiring realm of human achievement, embodies the soaring triumphs of flight that

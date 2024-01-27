@@ -8,8 +8,8 @@ function Header() {
         <div className="jet-info">
           <h5>Boeing</h5>
           <h5>Airbus</h5>
-          <h5>American Fighters</h5>
-          <h5>Russian Fighters</h5>
+          <h5>American Jets</h5>
+          <h5>Russian Jets</h5>
         </div>
       </div>
     </header>
