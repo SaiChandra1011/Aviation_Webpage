@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import Header from "./header.jsx"
 import Footer from "./footer.jsx"
 import Into from "./intro.jsx"
@@ -15,8 +16,9 @@ import russianjetinformation from "../russianinfo.jsx";
 
 
 function App(){
-    return <div>
-        <Header />
+    return <div>      
+      
+        <Header /> 
         <Into  />
         <div className="card-container">
         <Card 
@@ -42,6 +44,7 @@ function App(){
         </div>
         
         <Footer />
+
         {boeinginformation.map(boeingItem =>(
            <Boeing
            key = {boeingItem.key}
@@ -78,8 +81,41 @@ function App(){
            />
         ))}
         
+        return (
+         <Router>
+         <Switch>
+          <Route exact path="/boeing">
+            <Bo />
+          </Route>
+          <Route exact path="/airbus">
+            <Ar />
+          </Route>
+          <Route exact path="/americanfighters">
+            <AJ />
+          </Route>
+          <Route exact path="/russianfighters">
+            <RJ />
+          </Route>
+         </Switch>
+        </Router>
+
+        );
+        
     </div>
     
+}
+
+function Bo(){
+   return <h5> Boeing </h5>;
+}
+function Ar(){
+   return <h5> Airbus </h5>;
+}
+function AJ(){
+   return <h5> American Jets </h5>;
+}
+function RJ(){
+   return <h5> Russian Jets </h5>;
 }
 
 export default App;

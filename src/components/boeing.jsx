@@ -1,5 +1,6 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
+import boeinginformation from "../boeinginfo";
 
 function Boeing(props){
     return (
@@ -14,6 +15,16 @@ function Boeing(props){
             </div>
          </div>
          </Tilt>
+
+         
     );
+    {boeinginformation.map(boeingItem =>(
+        <Boeing
+        key = {boeingItem.key}
+        title = {boeingItem.title}
+        pictureURL ={boeingItem.pictureURL}
+        content = {boeingItem.content}
+        /> 
+     ))}
 }
 export default Boeing;

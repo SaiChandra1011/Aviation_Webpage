@@ -1,16 +1,22 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+
+
 
 function Header() {
   return (
     <header>
       <div className="header-content">
-        <h1>AviaNation</h1>
+        <Router>
+        <Link to="/intro">AviaNation</Link>
         <div className="jet-info">
-          <h5>Boeing</h5>
-          <h5>Airbus</h5>
-          <h5>American Jets</h5>
-          <h5>Russian Jets</h5>
+          <Link to="/boeing">Boeing</Link>
+          <Link to="/airbus">Airbus</Link>
+          <Link to="/americanfighters">American Jets</Link>
+          <Link to="/russianfighters">Russian Jets</Link>
+          
         </div>
+        </Router>
       </div>
     </header>
   );
