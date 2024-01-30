@@ -28,7 +28,20 @@ function Into() {
             <br />
             Beyond these giants, the Concorde supersonic airliner deserves a spotlight. This marvel of engineering soared at twice the speed of sound, offering unprecedented transatlantic travel at unparalleled velocity. Though retired, the Concorde remains a testament
             to mankind's pursuit of pushing the boundaries of speed and innovation in aviation.
-            Dive into AviaNation as it takes flight into the vast skies of aviation exploration from commercial jets to fighter jets.
+          </p>
+          <p className="para">
+          <div  className ="aiimg">
+        
+            <img  src={require("../images/2nd ai image.jpeg")} alt="Plane-img" height ={350} width ={350} style={{float:"right"}} />
+            </div>
+            Embark on an exhilarating journey through the skies as we unveil the rich history of fighter jets, from classic legends to the latest in modern aviation. Explore the daring tales of World War I and II, where planes like the agile Spitfire and robust Thunderbolt played pivotal roles. Witness the evolution of technology and design as we transition to the present, introducing you to the high-speed maneuvers of the F-22 Raptor and the versatile capabilities of the F-35 Lightning II. Immerse yourself in the world of aviation, where each page unlocks the secrets behind these incredible flying machines, showcasing the courage, innovation, and engineering marvels that have shaped the course of aerial warfare. Whether you're an aviation enthusiast or a curious mind, this encyclopedia is your comprehensive guide to the dynamic world above. Buckle up as we soar through time and witness the awe-inspiring legacy of fighter jets.
+            <br />
+            <br />
+            From the nimble biplanes of World War I to the iconic warbirds of World War II, such as the Spitfire, Mustang, and Thunderbolt, each aircraft tells a unique story of courage and engineering prowess. These vintage marvels, with their distinctive silhouettes and roaring engines, played pivotal roles in shaping the course of warfare and capturing the imagination of generations. 
+            <br />
+            <br />
+            
+            Dive into AviaPedia as it takes flight into the vast skies of aviation exploration from commercial jets to fighter jets.
           </p>
         
           

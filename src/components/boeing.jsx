@@ -2,6 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 
 function Boeing(props){
+
     return (
         <Tilt glareEnable={false} tiltMaxAngleX={11} 
         tiltMaxAngleY={5} perspective={1050} 
@@ -15,5 +16,6 @@ function Boeing(props){
          </div>
          </Tilt>
     );
+
 }
 export default Boeing;

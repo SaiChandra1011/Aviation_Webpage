@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <div className="header-content">
-        <h1>AviaNation</h1>
+        <h1>AviaPedia</h1>
         <div className="jet-info">
           <h5>Boeing</h5>
           <h5>Airbus</h5>
