@@ -81,42 +81,30 @@ function App(){
            />
         ))}
         
-        return (
+        
          <Router>
          <Switch>
-          <Route exact path="/boeing">
-            <Bo />
+          <Route exact path="/boeing" >
+            <Boeing />
           </Route>
           <Route exact path="/airbus">
-            <Ar />
+            <Airbus />
           </Route>
           <Route exact path="/americanfighters">
-            <AJ />
+            <AmericanJets />
           </Route>
           <Route exact path="/russianfighters">
-            <RJ />
+            <RussianJets />
           </Route>
          </Switch>
         </Router>
 
-        );
+      
         
     </div>
     
-    
 }
 
-function Bo(){
-   return <h5> Boeing </h5>;
-}
-function Ar(){
-   return <h5> Airbus </h5>;
-}
-function AJ(){
-   return <h5> American Jets </h5>;
-}
-function RJ(){
-   return <h5> Russian Jets </h5>;
-}
+
 
 export default App;

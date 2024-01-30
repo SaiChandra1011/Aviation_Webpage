@@ -8,12 +8,12 @@ function Header() {
     <header>
       <div className="header-content">
         <Router>
-        <Link to="/intro">AviaNation</Link>
+        <Link to="/"><h1>AviaNation</h1></Link>
         <div className="jet-info">
-          <Link to="/boeing">Boeing</Link>
-          <Link to="/airbus">Airbus</Link>
-          <Link to="/americanfighters">American Jets</Link>
-          <Link to="/russianfighters">Russian Jets</Link>
+          <Link to="/boeing"><h5>Boeing</h5></Link>
+          <Link to="/airbus"><h5>Airbus</h5></Link>
+          <Link to="/americanfighters"><h5>American Jets</h5></Link>
+          <Link to="/russianfighters"><h5>Russian Jets</h5></Link>
           
         </div>
         </Router>
