@@ -41,7 +41,7 @@ function App(){
         />
         </div>
         
-        <Footer />
+        
         {boeinginformation.map(boeingItem =>(
            <Boeing
            key = {boeingItem.key}
@@ -77,7 +77,7 @@ function App(){
            content = {russianjetItem.content}
            />
         ))}
-        
+        <Footer />
     </div>
     
     
