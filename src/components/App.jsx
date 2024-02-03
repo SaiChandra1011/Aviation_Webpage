@@ -27,14 +27,15 @@ function App() {
           <Card cardimage={cardsinfo[3].imgUrl} cardname={cardsinfo[3].name} />
         </div>
 
-        {boeinginformation.map((boeingItem) => (
-          <Boeing
-            key={boeingItem.key}
-            title={boeingItem.title}
-            pictureURL={boeingItem.pictureURL}
-            content={boeingItem.content}
-          />
-        ))}
+    {boeinginformation.map((boeingItem) => (
+        <Boeing
+          key={boeingItem.key}
+          title={boeingItem.title}
+          pictureURL={boeingItem.pictureURL}
+          content={boeingItem.content}
+        />
+      ))}
+
 
         {airbusinformation.map((airbusItem) => (
           <Airbus

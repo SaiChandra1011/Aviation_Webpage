@@ -104,7 +104,10 @@ footer p {
 #root > div > div.Intropara > p > div > img{
   border-radius: 60px ;
   padding-right: 20px;
+  cursor: pointer; 
+
 }
+
 .card-container {
   display: flex;
   justify-content: space-around; 
