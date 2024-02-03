@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
@@ -6,10 +7,18 @@ function Header() {
       <div className="header-content">
         <h1>AviaPedia</h1>
         <div className="jet-info">
-          <h5>Boeing</h5>
-          <h5>Airbus</h5>
-          <h5>American Jets</h5>
-          <h5>Russian Jets</h5>
+          <NavLink to="/boeing">
+            <h5>Boeing</h5>
+          </NavLink>
+          <NavLink to="/airbus">
+            <h5>Airbus</h5>
+          </NavLink>
+          <NavLink to="/american-jets">
+            <h5>American Jets</h5>
+          </NavLink>
+          <NavLink to="/russian-jets">
+            <h5>Russian Jets</h5>
+          </NavLink>
         </div>
       </div>
     </header>
