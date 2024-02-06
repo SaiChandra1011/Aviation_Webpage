@@ -1,5 +1,9 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
+import boeinginformation from '../boeinginfo.jsx';
+
+
+
 
 function Boeing(props){
 
@@ -16,6 +20,8 @@ function Boeing(props){
          </div>
          </Tilt>
     );
-
 }
+
+
+
 export default Boeing;
