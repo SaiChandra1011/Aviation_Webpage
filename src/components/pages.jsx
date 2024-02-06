@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom;';
+import { Route, Routes } from 'react-router-dom';
 import Intro from './intro.jsx';
 import Boeing from './boeing.jsx';
 import boeinginformation from '../boeinginfo.jsx';
