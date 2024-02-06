@@ -4,7 +4,7 @@ function Footer(){
     const currentYear = new Date().getFullYear();
     return(
         <footer>
-            <p> © {currentYear} Copyright: AviaNation.com </p>
+            <p> © {currentYear} Copyright: AviaPedia.com </p>
         </footer>
     )
       

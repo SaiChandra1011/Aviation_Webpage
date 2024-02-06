@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './header.jsx';
 import Footer from './footer.jsx';
-import Pages from './Pages.jsx';
+import Pages from './pages.jsx';
 import Card from './cards.jsx';
 import cardsinfo from '../cardsinfo.jsx';
+
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
         <Footer />
       </BrowserRouter>
     </div>
+    
   );
+  
 }
+
 
 export default App;

@@ -12,10 +12,15 @@ function Pages() {
       <Route path="/" element={<Home />} />
       <Route path="/boeing" element={<Boeing />} />
       <Route path="/airbus" element={<Airbus />} />
-      <Route path="/american-jets" element={<AmericanJets />} />
-      <Route path="/russian-jets" element={<RussianJets />} />
+      <Route path="/americanfighters" element={<AmericanJets />} />
+      <Route path="/russianfighters" element={<RussianJets />} />
     </Routes>
+    
+
+
+    
   );
 }
+
 
 export default Pages;
