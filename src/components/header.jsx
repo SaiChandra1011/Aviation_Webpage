@@ -5,7 +5,9 @@ function Header() {
   return (
     <header>
       <div className="header-content">
-        <h1>AviaPedia</h1>
+        <NavLink to="/">
+          <h1>AviaPedia</h1>
+        </NavLink>
         <div className="jet-info">
           <NavLink to="/boeing">
             <h5>Boeing</h5>
