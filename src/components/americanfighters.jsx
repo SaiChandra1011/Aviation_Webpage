@@ -3,8 +3,8 @@ import Tilt from "react-parallax-tilt";
 
 function AmericanJets(props){
     return (
-        <Tilt glareEnable={false} tiltMaxAngleX={11} 
-        tiltMaxAngleY={5} perspective={1050} 
+        <Tilt glareEnable={false} tiltMaxAngleX={6.7} 
+        tiltMaxAngleY={2.5} perspective={950} 
         >
          <div className="binfo">
             <h5 className="tit">{props.title}</h5>
