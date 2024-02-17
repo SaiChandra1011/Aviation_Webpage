@@ -5,7 +5,10 @@ import Footer from './footer.jsx';
 import Pages from './pages.jsx';
 import Card from './cards.jsx';
 import cardsinfo from '../cardsinfo.jsx';
-
+import Boeing from './boeing.jsx';
+import boeinginformation from '../boeinginfo.jsx';
+import Airbus from './airbus.jsx';
+import airbusinformation from '../airbusinfo.jsx';
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Pages />
+
         <div className="card-container">
           <Card cardimage={cardsinfo[0].imgUrl} cardname={cardsinfo[0].name} />
           <Card cardimage={cardsinfo[1].imgUrl} cardname={cardsinfo[1].name} />
@@ -22,7 +26,10 @@ function App() {
 
         <Footer />
       </BrowserRouter>
+
     </div>
+
+    
     
   );
   
