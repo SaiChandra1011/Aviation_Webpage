@@ -63,7 +63,7 @@ const russianjetinformation = [
     {
         key :11,
         title: "Mig-23",
-        pictureURL:"https://sites.breakingmedia.com/uploads/sites/3/2021/07/youtubeCheckmate-1024x461.png",
+        pictureURL:"https://c4.wallpaperflare.com/wallpaper/61/155/811/mig-23-aircraft-military-aircraft-vehicle-wallpaper-preview.jpg",
         content:"The Mikoyan-Gurevich MiG-23, introduced in the 1970s, is a versatile and highly capable swing-wing fighter aircraft developed by the Soviet Union. With a top speed exceeding Mach 2.3, the MiG-23 excelled in both air-to-air and air-to-ground missions. Its swing-wing design provided enhanced performance at different speeds and altitudes, making it suitable for a wide range of combat scenarios. Equipped with radar and advanced avionics, it was capable of engaging enemy aircraft with missiles and cannons, as well as conducting ground attack missions with precision-guided munitions. Despite its complexity and maintenance requirements, the MiG-23 served in numerous air forces around the world and participated in various conflicts during the Cold War era."
     },
     {
