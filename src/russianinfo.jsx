@@ -2,7 +2,7 @@ const russianjetinformation = [
     {
         key :1,
         title: "Su-15",
-        pictureURL:"https://img-forum-wt-com.cdn.gaijin.net/original/3X/b/c/bc4ee302532e4d08dab52a5538b20cab86c22083.jpeg",
+        pictureURL:"https://planehistoria.com/wp-content/uploads/2024/02/SU-15-Wojsyl-CC-BY-SA-3.0.jpg",
         content:"The Sukhoi Su-15, introduced in the 1960s, was a formidable Soviet interceptor aircraft renowned for its speed and agility. With a top speed exceeding Mach 2.5, the Su-15 excelled in intercepting enemy aircraft and defending Soviet airspace during the Cold War. Equipped with powerful radar and a heavy armament of air-to-air missiles, it posed a significant threat to potential adversaries. Despite its impressive performance, the Su-15 faced challenges in its service life, including limited range and maneuverability at high speeds. Nevertheless, it remained a key component of the Soviet Air Defense Forces and saw active service in various conflicts and crises."
     },
     {
